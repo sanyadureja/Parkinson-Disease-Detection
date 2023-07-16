@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detection of Parkinson's Disease</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_3.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <div class="heading">
+        <h1><strong>Parkinson's Disease Detection</strong></h1>
+    </div>
+        <div class="content">
+            <h2>Enter the following details</h2>
+            <br>
+            <form action="/predict" method="POST" autocomplete="off">  
+            <div class="form-row">
+            <div class="form-group col">
+                <label for="nhr">NHR</label>
+                <input type="float" name="nhr" id="nhr" placeholder="0.0006-0.31">
+            </div>
+            </div>
+            
+            <div class="form-row">
+                    <div class="form-group col">
+                        <label for="hnr">HNR</label>
+                <input type="float" name="hnr" id="hnr" placeholder="8-33">
+                    </div>
+                    <div class="form-group col">
+                        <label for="rpde">RPDE</label>
+                <input type="float" name="rpde" id="rpde" placeholder="0.25-0.68">
+                    </div>
+                    <div class="form-group col">
+                        <label for="dfa">DFA</label>
+                <input type="float" name="dfa" id="dfa" placeholder="0.57-0.82">
+                    </div>
+                </div>
+                
+
+                <div class="form-row">
+                    <div class="form-group col">
+                        <label for="spread1">Spread1</label>
+                <input type="float" name="spread1" id="spread1" placeholder="-7 - -2">
+                    </div>
+                    <div class="form-group col">
+                        <label for="spread2">Spread2</label>
+                <input type="float" name="spread2" id="spread2" placeholder="0.006-0.45">
+                    </div>
+                    <div class="form-group col">
+                        <label for="d2">D2</label>
+                <input type="float" name="d2" id="d2" placeholder="1.42-3.67">
+                    </div>
+                    <div class="form-group col">
+                        <label for="ppe">PPE</label>
+                <input type="float" name="ppe" id="ppe" placeholder="0.04-0.5">
+                    </div>
+                </div>
+
+                <br>
+                <button type="submit" class="btn btn-success btn-lg" value="predict">Predict Result</button>
+            </form>
+        </div>
+        
+    
+
+</body>
+</html>
+
