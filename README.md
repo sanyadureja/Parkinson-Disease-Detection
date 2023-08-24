@@ -24,6 +24,9 @@ https://archive.ics.uci.edu/dataset/174/parkinsons
 <img width="1440" alt="Screenshot 2023-07-17 at 3 55 29 AM" src="https://github.com/sanyadureja/CodeClause_Golden-Project_Detection-of-Parkinson-s-Disease/assets/84080312/735af3aa-b0ae-4fac-8c60-163e27256be8">
 <img width="1440" alt="Screenshot 2023-07-17 at 3 54 51 AM" src="https://github.com/sanyadureja/CodeClause_Golden-Project_Detection-of-Parkinson-s-Disease/assets/84080312/328fe63c-abf1-4033-9cb5-9daca096d950">
 
+# Demo Video 
+https://www.linkedin.com/posts/sanya-dureja-13960122a_i-am-thrilled-to-share-that-i-have-successfully-activity-7086478696378724352-QwEw?utm_source=share&utm_medium=member_desktop
+
 
 
 
