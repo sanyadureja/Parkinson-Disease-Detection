@@ -1,4 +1,4 @@
-# CodeClause_Golden-Project_Detection-of-Parkinson-s-Disease
+# Parkinson's Disease Detection System
 
 # Technologies Used:
 1. Frontend- HTML, CSS, Bootstrap
